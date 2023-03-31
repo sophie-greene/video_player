@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     private func playVideo(){
         //access the videos location
-        guard let path=Bundle.main.path(forResource: "DJ Got Us Fallin' in Love - Lovestruck The Musical-gtrI7o2otXQ", ofType:"mp4")else{
+        guard let path=Bundle.main.path(forResource: "video", ofType:"mp4")else{
             debugPrint("video not found")
             return
             }
